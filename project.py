@@ -53,7 +53,7 @@ def voice_assistant(data):
         respond('Done')
     if "email" in data:
         listening = True
-        respond("Whom should i send email to?")
+        respond("Whom Do You Want to Send email ?")
         to = listen()
         edict = {'hello':'mukuladli@gmail.com','just':'akashsrivastav2001@gmail.com'}
         toaddr = edict[to]
